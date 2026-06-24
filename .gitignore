@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Database (don't commit the actual db file)
+backend/db/*.db
+
+# Scraper output
+backend/scraper/output/
+
+# Node
+node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
