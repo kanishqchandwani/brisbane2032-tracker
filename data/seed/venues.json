@@ -1,0 +1,404 @@
+{
+  "_note": "All 17 GIICA-managed venues. Figures in AUD. Sourced from Queensland Government Budget papers, GIICA official announcements, and ministerial media statements at statements.qld.gov.au. Last reviewed: June 2026.",
+  "_sources": {
+    "qld_budget_2025_26": "https://statements.qld.gov.au/statements/102864",
+    "funding_deal_confirmed": "https://statements.qld.gov.au/statements/102978",
+    "giica_venues": "https://giica.au/venues",
+    "giica_brisbane_stadium": "https://giica.au/venues/brisbane-stadium",
+    "giica_national_aquatic_centre": "https://giica.au/venues/national-aquatic-centre",
+    "nac_cost_revision": "https://www.ausleisure.com.au/news/cost-of-planned-brisbane-olympic-aquatic-centre-set-to-double-to-12-billion"
+  },
+  "programme_totals": {
+    "total_funding_envelope_aud": 7100000000,
+    "qld_government_venues_provision_aud": 3800000000,
+    "federal_government_contribution_aud": 3435000000,
+    "athlete_villages_total_state_aud": 3500000000,
+    "minor_venues_package_aud": 847000000,
+    "announced_date": "2025-06-17",
+    "source_url": "https://statements.qld.gov.au/statements/102864",
+    "source_label": "Queensland Budget 2025-26 — Games delivery announcement"
+  },
+  "venues": [
+    {
+      "name": "Brisbane Stadium",
+      "slug": "brisbane-stadium",
+      "location": "Victoria Park, Herston, Brisbane",
+      "type": "new",
+      "sport": "Athletics, Para Athletics, Opening and Closing Ceremonies",
+      "capacity": 63000,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/brisbane-stadium",
+      "anticipated_completion": "2031",
+      "budget_entries": [
+        {
+          "amount_aud": 2700000000,
+          "change_type": "initial_estimate",
+          "announced_at": "2021-02-10",
+          "source_url": "https://statements.qld.gov.au",
+          "source_label": "QLD Government — original Gabba rebuild estimate Feb 2021",
+          "notes": "This was the original estimate for a full rebuild of The Gabba. The Gabba rebuild was cancelled in March 2024. Retained here for historical comparison."
+        },
+        {
+          "amount_aud": 3600000000,
+          "change_type": "revised_estimate",
+          "announced_at": "2025-03-25",
+          "source_url": "https://statements.qld.gov.au/statements/102240",
+          "source_label": "QLD Government — 2032 Delivery Plan announced Mar 2025",
+          "notes": "Gabba rebuild cancelled. New 63,000-seat stadium at Victoria Park confirmed. Cost reported as $3.4B to $3.8B AUD across multiple sources. Figure here reflects the midpoint. GIICA Chairman confirmed 'approximately $3.8B' in separate briefings."
+        },
+        {
+          "amount_aud": 3800000000,
+          "change_type": "approved_budget",
+          "announced_at": "2025-06-17",
+          "source_url": "https://statements.qld.gov.au/statements/102864",
+          "source_label": "Queensland Budget 2025-26",
+          "notes": "$3.8B provisioned for total venues programme. Brisbane Stadium is by far the largest single item within this envelope. Federal Government contributing $1.2B toward stadium via the $3.435B funding deal."
+        }
+      ]
+    },
+    {
+      "name": "National Aquatic Centre",
+      "slug": "national-aquatic-centre",
+      "location": "Victoria Park, Spring Hill, Brisbane",
+      "type": "new",
+      "sport": "Swimming, Para Swimming, Diving, Water Polo, Artistic Swimming",
+      "capacity": 25000,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/national-aquatic-centre",
+      "anticipated_completion": "2031",
+      "budget_entries": [
+        {
+          "amount_aud": 650000000,
+          "change_type": "initial_estimate",
+          "announced_at": "2023-01-01",
+          "source_url": null,
+          "source_label": "Swimming Australia concept submission",
+          "notes": "Initial $650M figure presented by Swimming Australia as part of the Games venue concept stage. Subsequently reviewed by GIICA."
+        },
+        {
+          "amount_aud": 1200000000,
+          "change_type": "revised_estimate",
+          "announced_at": "2024-06-01",
+          "source_url": "https://www.ausleisure.com.au/news/cost-of-planned-brisbane-olympic-aquatic-centre-set-to-double-to-12-billion",
+          "source_label": "GIICA Chairman Stephen Conry — revised estimate",
+          "notes": "Revised to $1.2B following GIICA planning review. Conry described prior figure as insufficiently realistic. Scope remained largely consistent; cost increase attributed to more rigorous project costing. Second most expensive venue after Brisbane Stadium."
+        }
+      ]
+    },
+    {
+      "name": "Barlow Park Stadium",
+      "slug": "barlow-park-stadium",
+      "location": "Parramatta Park, Cairns",
+      "type": "upgraded",
+      "sport": "Football (Soccer)",
+      "capacity": 5000,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/barlow-park-stadium",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": 120000000,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-06-17",
+          "source_url": "https://statements.qld.gov.au/statements/102864",
+          "source_label": "Queensland Budget 2025-26 — $847M minor venues package (proportional estimate)",
+          "notes": "Individual cost not separately disclosed. $120M is a proportional estimate based on relative scope within the $847M package (new grandstand, 5,000 permanent seats). Not an official government figure."
+        }
+      ]
+    },
+    {
+      "name": "Brisbane Aquatic Centre",
+      "slug": "brisbane-aquatic-centre",
+      "location": "Chandler Sports Precinct, Chandler, Brisbane",
+      "type": "upgraded",
+      "sport": "Aquatics (support venue to National Aquatic Centre)",
+      "capacity": 4300,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/brisbane-aquatic-centre",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-03-25",
+          "source_url": "https://statements.qld.gov.au/statements/102240",
+          "source_label": "2032 Delivery Plan Mar 2025",
+          "notes": "Upgrade to existing venue originally built for the 1982 Commonwealth Games. Will support the National Aquatic Centre at Victoria Park. Individual budget figure not separately announced."
+        }
+      ]
+    },
+    {
+      "name": "Brisbane International Shooting Centre",
+      "slug": "brisbane-international-shooting-centre",
+      "location": "Belmont, Brisbane",
+      "type": "upgraded",
+      "sport": "Shooting",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/brisbane-international-shooting-centre",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-07-03",
+          "source_url": "https://statements.qld.gov.au/statements/102978",
+          "source_label": "2032 Games Infrastructure Funding Deal Confirmed Jul 2025",
+          "notes": "Listed as a venue with previously allocated federal funding in the revised Minor Venues Program. Individual cost not separately disclosed."
+        }
+      ]
+    },
+    {
+      "name": "Brisbane SX International BMX Centre",
+      "slug": "brisbane-sx-bmx-centre",
+      "location": "Chandler Sports Precinct, Chandler, Brisbane",
+      "type": "upgraded",
+      "sport": "BMX Racing",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/brisbane-sx-international-bmx-centre",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-07-03",
+          "source_url": "https://statements.qld.gov.au/statements/102978",
+          "source_label": "2032 Games Infrastructure Funding Deal Confirmed Jul 2025",
+          "notes": "Listed as venue with previously allocated federal funding. Individual cost not separately disclosed."
+        }
+      ]
+    },
+    {
+      "name": "Anna Meares Velodrome",
+      "slug": "anna-meares-velodrome",
+      "location": "Chandler Sports Precinct, Chandler, Brisbane",
+      "type": "upgraded",
+      "sport": "Track Cycling",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/anna-meares-velodrome",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-07-03",
+          "source_url": "https://statements.qld.gov.au/statements/102978",
+          "source_label": "2032 Games Infrastructure Funding Deal Confirmed Jul 2025",
+          "notes": "UCI certified venue. Minor works confirmed as required. Listed with previously allocated federal funding. Individual cost not disclosed."
+        }
+      ]
+    },
+    {
+      "name": "Chandler Sports Precinct",
+      "slug": "chandler-sports-precinct",
+      "location": "Chandler, Brisbane",
+      "type": "upgraded",
+      "sport": "Multiple (umbrella precinct)",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/chandler-sports-precinct",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-03-25",
+          "source_url": "https://statements.qld.gov.au/statements/102240",
+          "source_label": "2032 Delivery Plan Mar 2025",
+          "notes": "Precinct-wide upgrades covering the Sleeman Sports Complex. Contains Anna Meares Velodrome, Brisbane SX BMX Centre, Brisbane Aquatic Centre, and Para Sport Facility. Costs reported per individual venue where available."
+        }
+      ]
+    },
+    {
+      "name": "Para Sport Facility",
+      "slug": "para-sport-facility",
+      "location": "Chandler Sports Precinct, Chandler, Brisbane",
+      "type": "new",
+      "sport": "Para Sports (multiple)",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/para-sport-facility",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-07-03",
+          "source_url": "https://statements.qld.gov.au/statements/102978",
+          "source_label": "2032 Games Infrastructure Funding Deal Confirmed Jul 2025",
+          "notes": "New dedicated para-sport facility added to revised Minor Venues Program. Individual cost not disclosed."
+        }
+      ]
+    },
+    {
+      "name": "Logan Indoor Sports Centre",
+      "slug": "logan-indoor-sports-centre",
+      "location": "Logan Central Precinct, Logan",
+      "type": "new",
+      "sport": "Basketball, Volleyball, Badminton, Futsal, Netball",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/logan-indoor-sports-centre",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": 180000000,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-06-17",
+          "source_url": "https://statements.qld.gov.au/statements/102864",
+          "source_label": "Queensland Budget 2025-26 — $847M minor venues package (proportional estimate)",
+          "notes": "Individual cost not separately disclosed. $180M is a proportional estimate based on relative scope within the $847M package (new multi-sport indoor facility). Not an official government figure. Procurement launched July 2025."
+        }
+      ]
+    },
+    {
+      "name": "Moreton Bay Indoor Sports Centre",
+      "slug": "moreton-bay-indoor-sports-centre",
+      "location": "The Moreton Bay Central Precinct, Petrie, Moreton Bay",
+      "type": "new",
+      "sport": "Basketball, Netball, Volleyball, Badminton, Futsal",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/moreton-bay-indoor-sports-centre",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": 200000000,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-06-17",
+          "source_url": "https://statements.qld.gov.au/statements/102864",
+          "source_label": "Queensland Budget 2025-26 — $847M minor venues package (proportional estimate)",
+          "notes": "Individual cost not separately disclosed. $200M is a proportional estimate based on relative scope within the $847M package (new multi-sport indoor facility, largest of the three new indoor centres). Not an official government figure. Design phase underway as of June 2026."
+        }
+      ]
+    },
+    {
+      "name": "Queensland Tennis Centre",
+      "slug": "queensland-tennis-centre",
+      "location": "Tennyson, Brisbane",
+      "type": "upgraded",
+      "sport": "Tennis",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/queensland-tennis-centre",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-07-03",
+          "source_url": "https://statements.qld.gov.au/statements/102978",
+          "source_label": "2032 Games Infrastructure Funding Deal Confirmed Jul 2025",
+          "notes": "Expanded Queensland Tennis Centre added to revised Minor Venues Program. Individual cost not disclosed."
+        }
+      ]
+    },
+    {
+      "name": "Redland Whitewater Centre",
+      "slug": "redland-whitewater-centre",
+      "location": "Birkdale, Redlands Coast",
+      "type": "new",
+      "sport": "Canoe Slalom",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/redland-whitewater-centre",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-07-03",
+          "source_url": "https://statements.qld.gov.au/statements/102978",
+          "source_label": "2032 Games Infrastructure Funding Deal Confirmed Jul 2025",
+          "notes": "New purpose-built whitewater venue. Listed with previously allocated federal funding. Individual cost not disclosed."
+        }
+      ]
+    },
+    {
+      "name": "Rockhampton Flatwater Facility",
+      "slug": "rockhampton-flatwater-facility",
+      "location": "Fitzroy River, Rockhampton",
+      "type": "upgraded",
+      "sport": "Canoe Sprint, Rowing",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/rockhampton-flatwater-facility",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-03-25",
+          "source_url": "https://statements.qld.gov.au/statements/102240",
+          "source_label": "2032 Delivery Plan Mar 2025",
+          "notes": "Upgrade to natural flatwater venue on the Fitzroy River. Community consultation underway as of June 2026. Individual cost not disclosed."
+        }
+      ]
+    },
+    {
+      "name": "Sunshine Coast Mountain Bike Centre",
+      "slug": "sunshine-coast-mountain-bike-centre",
+      "location": "Maroochydore, Sunshine Coast",
+      "type": "new",
+      "sport": "Mountain Bike",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/sunshine-coast-mountain-bike-centre",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": 97000000,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-06-17",
+          "source_url": "https://statements.qld.gov.au/statements/102864",
+          "source_label": "Queensland Budget 2025-26 — $847M minor venues package (proportional estimate)",
+          "notes": "Individual cost not separately disclosed. $97M is a proportional estimate based on relative scope within the $847M package (new outdoor trail facility, smallest scope of the five). Not an official government figure."
+        }
+      ]
+    },
+    {
+      "name": "Sunshine Coast Stadium",
+      "slug": "sunshine-coast-stadium",
+      "location": "Kawana, Sunshine Coast",
+      "type": "upgraded",
+      "sport": "Football (Soccer)",
+      "capacity": 10680,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/sunshine-coast-stadium",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": 250000000,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-06-17",
+          "source_url": "https://statements.qld.gov.au/statements/102864",
+          "source_label": "Queensland Budget 2025-26 — $847M minor venues package (proportional estimate)",
+          "notes": "Individual cost not separately disclosed. $250M is a proportional estimate based on relative scope within the $847M package (largest of the five: stadium expansion from 1,046 to 10,680 permanent seats). Not an official government figure. Design phase underway as of June 2026."
+        }
+      ]
+    },
+    {
+      "name": "Toowoomba Showgrounds",
+      "slug": "toowoomba-showgrounds",
+      "location": "Glenvale, Toowoomba",
+      "type": "upgraded",
+      "sport": "Equestrian",
+      "capacity": null,
+      "status": "planning",
+      "giica_url": "https://giica.au/venues/toowoomba-showgrounds",
+      "anticipated_completion": null,
+      "budget_entries": [
+        {
+          "amount_aud": null,
+          "change_type": "initial_estimate",
+          "announced_at": "2025-07-03",
+          "source_url": "https://statements.qld.gov.au/statements/102978",
+          "source_label": "2032 Games Infrastructure Funding Deal Confirmed Jul 2025",
+          "notes": "Formerly referred to as Toowoomba Equestrian Centre in early planning documents. Added to revised Minor Venues Program July 2025. Individual cost not disclosed."
+        }
+      ]
+    }
+  ]
+}
