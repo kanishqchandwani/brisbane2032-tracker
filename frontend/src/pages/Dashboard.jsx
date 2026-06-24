@@ -11,8 +11,8 @@ export default function Dashboard() {
 
   useEffect(() => {
     Promise.all([
-      fetch("/api/budget/summary").then((r) => r.json()),
-      fetch("/api/budget/timeline").then((r) => r.json()),
+      fetch(`${import.meta.env.VITE_API_URL || ""}/budget/summary`).then((r) => r.json()),
+      fetch(`${import.meta.env.VITE_API_URL || ""}/budget/timeline`).then((r) => r.json()),
     ])
       .then(([s, t]) => { setSummary(s); setTimeline(t); setLoading(false); })
       .catch((e) => { setError(e.message); setLoading(false); });

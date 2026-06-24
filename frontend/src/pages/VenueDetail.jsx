@@ -19,7 +19,7 @@ export default function VenueDetail() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`/api/venues/${slug}`)
+    fetch(`${import.meta.env.VITE_API_URL || ""}/venues/${slug}`)
       .then((r) => r.json())
       .then((data) => { setVenue(data); setLoading(false); })
       .catch((err) => { setError(err.message); setLoading(false); });
