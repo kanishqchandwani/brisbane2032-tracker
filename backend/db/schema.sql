@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS budget_entries (
     source_url    TEXT,                      -- URL of the announcement or document
     source_label  TEXT,                      -- human readable e.g. "Queensland Budget 2024-25"
     notes         TEXT,                      -- scope changes, caveats, context
-    created_at    TEXT NOT NULL DEFAULT (datetime('now'))
+    created_at    TEXT NOT NULL DEFAULT (datetime('now')),
     UNIQUE (venue_id, announced_at, change_type)
 );
 
