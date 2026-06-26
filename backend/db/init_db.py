@@ -20,6 +20,10 @@ SEED_PATH = Path(__file__).parents[2] / "data" / "seed" / "venues.json"
 def init():
     print(f"Initialising database at {DB_PATH}")
 
+    if DB_PATH.exists():
+        DB_PATH.unlink()
+        print("Existing database removed.")
+
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 

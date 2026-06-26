@@ -18,20 +18,27 @@ def budget_summary():
     conn = get_connection()
 
     rows = conn.execute(
-        """
-        SELECT
-            v.name,
-            v.slug,
-            v.status,
-            v.type,
-            MAX(b.amount_aud) AS latest_amount,
-            MIN(b.amount_aud) AS initial_amount,
-            COUNT(b.id)       AS revision_count
-        FROM venues v
-        LEFT JOIN budget_entries b ON b.venue_id = v.id
-        GROUP BY v.id
-        ORDER BY latest_amount DESC
-        """
+    """
+    SELECT
+        b.announced_at,
+        b.amount_aud,
+        b.change_type,
+        b.source_label,
+        b.notes,
+        v.name  AS venue_name,
+        v.slug  AS venue_slug
+    FROM budget_entries b
+    JOIN venues v ON v.id = b.venue_id
+    WHERE b.amount_aud IS NOT NULL
+      AND b.announced_at = (
+          SELECT MAX(b2.announced_at)
+          FROM budget_entries b2
+          WHERE b2.venue_id = b.venue_id
+            AND b2.amount_aud IS NOT NULL
+      )
+    GROUP BY v.id
+    ORDER BY b.amount_aud DESC
+    """
     ).fetchall()
 
     total = conn.execute(
