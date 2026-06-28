@@ -3,7 +3,7 @@ import "leaflet/dist/leaflet.css";
 import { formatAUD } from "../utils";
 
 const COORDS = {
-  "brisbane-stadium": [-27.4497, 153.0119],
+  "brisbane-stadium": [-27.4546, 153.0248],
   "national-aquatic-centre": [-27.4515, 153.0105],
   "barlow-park-stadium": [-16.9281, 145.7721],
   "brisbane-aquatic-centre": [-27.5347, 153.1178],
